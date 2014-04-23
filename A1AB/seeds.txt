@@ -1,0 +1,4 @@
+planetlab1.inf.ethz.ch
+planetlab1.xeno.cl.cam.ac.uk
+planetlab4.ie.cuhk.edu.hk
+ricepl-2.cs.rice.edu

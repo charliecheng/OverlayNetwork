@@ -1,0 +1,18 @@
+Identity: Member node 2013-10-07 00:32:34.260268:
+	[COORDINATOR]: [planetlab1.inf.ethz.ch]
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk planetlab1.inf.ethz.ch ]
+Identity: Member node 2013-10-07 00:32:38.217478:
+	[COORDINATOR]: [planetlab1.inf.ethz.ch]
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk planetlab1.inf.ethz.ch ricepl-2.cs.rice.edu ]
+Identity: Coordinator node 2013-10-07 00:33:38.296366:
+	[EVENT JOIN]: ricepl-2.cs.rice.edu
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk ricepl-2.cs.rice.edu ]
+Identity: Coordinator node 2013-10-07 00:33:42.257152:
+	[EVENT JOIN]: planetlab1.inf.ethz.ch
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk planetlab1.inf.ethz.ch ricepl-2.cs.rice.edu ]
+Identity: Coordinator node 2013-10-07 00:34:18.237008:
+	[EVENT FAILURE]: planetlab1.inf.ethz.ch
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk ricepl-2.cs.rice.edu ]
+Identity: Coordinator node 2013-10-07 00:34:22.712029:
+	[EVENT LEAVE]: ricepl-2.cs.rice.edu
+	[MEMBERS]: [planetlab4.ie.cuhk.edu.hk ]

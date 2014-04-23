@@ -1,0 +1,24 @@
+@author: Cheng Yuxin
+	With great help from Andreea Anghel
+	Thanks Andreea!
+Usage:
+python overlay.py
+
+seeds.txt file needs to be under the same directory
+
+There will be 2 output file:
+
+Log.log: Log file that logs every change of the overlay network. Note that this file will log the change of the Coordinator.
+	That means no matter the node is Coordinator or not, only one file is genarated.
+
+Latency.log: Log file that logs the latency of nodes
+
+
+Under this SVN directory, these files are:
+overlay.py	main program
+README		ReadMe File
+Log.log		an example of Log.log. From this file, all the actions from network is recorded. The Log file is genarated from
+		a node, that is a member at beginning, and then turn to be the Coordinatior after the previous Coordinator failure is
+		detected. What's more, normal actions like JOIN, LEAVE, FAILURE is shown. The other previous member node's leaving is 			recorded from this new Coordinator.
+Latency.log	a Latency log from an American node, with an 1 hour record. Ping interval is 30s.
+		The Coordinator is at Zurich(ETH), two members from American(Rice) and HongKong(CUHK)

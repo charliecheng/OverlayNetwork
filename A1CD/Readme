@@ -1,0 +1,20 @@
+src files:
+overlay.py:		main program
+monitor.py:		monitor module
+member.py:		member module
+graph.py:		graph class and dijkstra algorithm
+datapacket.py	1kB or 10kB data
+15nodes:		actually only 6 nodes plus one monitor
+neighbot.txt 	topology
+overlay.log		log file from monitor
+
+Note: The Part D I did it manually. Thus only 6 nodes are considered.
+
+usage:
+For monintor node:
+python overlay.py -M
+
+For member node: 
+python overlay.py -m MONITORNAME -v VID
+
+After member bootstrapping is over, type "route" to check routing table, type "send 1/10 vid" sending 1 or 10KB data 

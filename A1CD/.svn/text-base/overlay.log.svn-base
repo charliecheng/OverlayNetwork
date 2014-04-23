@@ -1,0 +1,294 @@
+
+2013-10-19 17:48:06.935255
+JOIN NEW NODE:
+VID: 1
+HOSTNAME:	planetlab1.xeno.cl.cam.ac.uk
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+
+
+2013-10-19 17:48:09.678759
+JOIN NEW NODE:
+VID: 2
+HOSTNAME:	planetlab-4.eecs.cwru.edu
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+2	planetlab-4.eecs.cwru.edu
+
+
+2013-10-19 17:48:11.600113
+JOIN NEW NODE:
+VID: 3
+HOSTNAME:	planetlab1.acis.ufl.edu
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+
+
+2013-10-19 17:48:13.908973
+JOIN NEW NODE:
+VID: 4
+HOSTNAME:	planetlab4.bupt.edu.cn
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+4	planetlab4.bupt.edu.cn
+
+
+2013-10-19 17:48:15.069772
+JOIN NEW NODE:
+VID: 5
+HOSTNAME:	planet-plc-3.mpi-sws.org
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+
+
+2013-10-19 17:48:16.596617
+JOIN NEW NODE:
+VID: 6
+HOSTNAME:	node2pl.planet-lab.telecom-lille1.eu
+Current Mapping Table:
+1	planetlab1.xeno.cl.cam.ac.uk
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+2013-10-19 17:49:34.640264
+LEAVE NODE:
+VID: 1
+HOSTNAME:	planetlab1.xeno.cl.cam.ac.uk
+Current Mapping Table:
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Down 1 Reaction Time: 0:00:07.242593
+
+2013-10-19 17:49:52.347309
+JOIN NEW NODE:
+VID: 1
+HOSTNAME:	planetlab4.wail.wisc.edu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab1.acis.ufl.edu
+2	planetlab-4.eecs.cwru.edu
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Join 1 Reaction Time: 0:00:00.582454
+
+2013-10-19 17:49:59.791796
+LEAVE NODE:
+VID: 2
+HOSTNAME:	planetlab-4.eecs.cwru.edu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab1.acis.ufl.edu
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Down 2 Reaction Time: 0:00:10.115779
+
+2013-10-19 17:50:15.085298
+JOIN NEW NODE:
+VID: 2
+HOSTNAME:	planetlab1.xeno.cl.cam.ac.uk
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab1.acis.ufl.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Join 2 Reaction Time: 0:00:02.391754
+
+2013-10-19 17:50:27.449912
+LEAVE NODE:
+VID: 3
+HOSTNAME:	planetlab1.acis.ufl.edu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Down 3 Reaction Time: 0:00:07.495997
+
+2013-10-19 17:50:54.473937
+JOIN NEW NODE:
+VID: 3
+HOSTNAME:	planetlab-4.eecs.cwru.edu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planet-plc-3.mpi-sws.org
+4	planetlab4.bupt.edu.cn
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Join 3 Reaction Time: 0:00:02.596946
+
+2013-10-19 17:51:07.345434
+LEAVE NODE:
+VID: 4
+HOSTNAME:	planetlab4.bupt.edu.cn
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planet-plc-3.mpi-sws.org
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Down 4 Reaction Time: 0:00:12.046771
+
+2013-10-19 17:51:23.672720
+JOIN NEW NODE:
+VID: 4
+HOSTNAME:	planetlab1.acis.ufl.edu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planet-plc-3.mpi-sws.org
+4	planetlab1.acis.ufl.edu
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Join 4 Reaction Time: 0:00:02.180921
+
+2013-10-19 17:51:36.283079
+LEAVE NODE:
+VID: 5
+HOSTNAME:	planet-plc-3.mpi-sws.org
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+4	planetlab1.acis.ufl.edu
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Down 5 Reaction Time: 0:00:08.989024
+
+2013-10-19 17:51:52.993365
+JOIN NEW NODE:
+VID: 5
+HOSTNAME:	planetlab4.bupt.edu.cn
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planetlab4.bupt.edu.cn
+4	planetlab1.acis.ufl.edu
+6	node2pl.planet-lab.telecom-lille1.eu
+
+
+Join 5 Reaction Time: 0:00:00.332231
+
+2013-10-19 17:52:42.474899
+LEAVE NODE:
+VID: 6
+HOSTNAME:	node2pl.planet-lab.telecom-lille1.eu
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planetlab4.bupt.edu.cn
+4	planetlab1.acis.ufl.edu
+
+
+Down 6 Reaction Time: 0:00:07.417046
+
+2013-10-19 17:52:59.239677
+JOIN NEW NODE:
+VID: 6
+HOSTNAME:	planet-plc-3.mpi-sws.org
+Current Mapping Table:
+1	planetlab4.wail.wisc.edu
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planetlab4.bupt.edu.cn
+4	planetlab1.acis.ufl.edu
+6	planet-plc-3.mpi-sws.org
+
+
+Join 6 Reaction Time: 0:00:02.816962
+
+2013-10-19 17:53:16.768814
+LEAVE NODE:
+VID: 1
+HOSTNAME:	planetlab4.wail.wisc.edu
+Current Mapping Table:
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planetlab4.bupt.edu.cn
+4	planetlab1.acis.ufl.edu
+6	planet-plc-3.mpi-sws.org
+
+
+2013-10-19 17:53:18.926610
+LEAVE NODE:
+VID: 6
+HOSTNAME:	planet-plc-3.mpi-sws.org
+Current Mapping Table:
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+5	planetlab4.bupt.edu.cn
+4	planetlab1.acis.ufl.edu
+
+
+2013-10-19 17:53:20.119637
+LEAVE NODE:
+VID: 5
+HOSTNAME:	planetlab4.bupt.edu.cn
+Current Mapping Table:
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+4	planetlab1.acis.ufl.edu
+
+
+2013-10-19 17:53:20.887117
+LEAVE NODE:
+VID: 4
+HOSTNAME:	planetlab1.acis.ufl.edu
+Current Mapping Table:
+3	planetlab-4.eecs.cwru.edu
+2	planetlab1.xeno.cl.cam.ac.uk
+
+
+2013-10-19 17:53:22.123620
+LEAVE NODE:
+VID: 3
+HOSTNAME:	planetlab-4.eecs.cwru.edu
+Current Mapping Table:
+2	planetlab1.xeno.cl.cam.ac.uk
+
+
+2013-10-19 17:53:24.886094
+LEAVE NODE:
+VID: 2
+HOSTNAME:	planetlab1.xeno.cl.cam.ac.uk
+Current Mapping Table:
+
